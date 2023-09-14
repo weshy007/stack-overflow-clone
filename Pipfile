@@ -8,6 +8,8 @@ django = "*"
 python-decouple = "*"
 pillow = "*"
 django-crispy-forms = "*"
+django-ckeditor = "*"
+crispy-bootstrap4 = "*"
 
 [dev-packages]
 

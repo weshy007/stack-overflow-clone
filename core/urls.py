@@ -23,6 +23,7 @@ from users import views as user_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('stackoverflow.urls')),
 
     # Authentication System
     path('register/', user_view.register, name="register"),
